@@ -1,0 +1,261 @@
+  /*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Poppins:wght@300&display=swap');
+
+
+:root{
+  --red:#d01c28;
+  --gray:#2e2e2e;
+}
+
+*{
+  margin:0;
+  background-color:lightcyan;
+}
+  body {
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  button{
+    all: unset;
+    padding:6px 16px;
+    background:var(--red);
+    height:32px;
+    color:white;
+    font-weight: 500;
+    border-radius: 13px;
+  }
+
+.container{
+  margin:0 auto;
+  max-width: 1080px;
+
+}
+
+  nav {
+    display:flex;
+    justify-content: space-between;
+    /*max-width: 1080px;*/
+    /*margin: 0 auto;*/
+    height:72px;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap:24px;
+  }
+
+  .hero{
+    display: flex;
+    align-items: center;
+    height:calc(100vh-72px);
+  }
+
+  .hero-content{
+    display: flex;
+    flex-direction: column;
+    gap:26px;
+  }
+
+  .hero h2{
+    font-weight: 800;
+    font-size:65px;
+    line-height: 105px;
+  }
+
+  .chr{
+    color: green;
+  }
+
+  .hero p{
+    font-weight: 600;
+    color: gray;
+  }
+
+  .hero-btn {
+    display: flex;
+    gap:40px;
+  }
+
+  .hero-btn button{
+    font-size: 20px;
+    background:rgb(219, 144, 47);
+    border-radius: 13px;
+  }
+
+  .secondary-btn{
+    background:rgb(219, 144, 47);
+    color:white;
+    /*border: 1px solid var(--gray);*/
+    
+  }
+
+  .shopping p{
+    font-size: 14px;
+    margin-bottom: 8px;
+    color:var(--gray);
+  }
+
+  .brand-icons{
+    display: flex;
+    gap:14px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}*/
